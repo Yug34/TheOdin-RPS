@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <a href="https://github.com/Yug34/">
+            <img id="githublink" src="images/github-mark.png" alt="link to the github repo">
+        </a>
+    </header>
+
+    <br>
+
+    <div id="scoreboard">
+        <div class="your_scores">
+            <span id="your_output">Your Score: 0</span>
+        </div>
+        <br>
+        <div class="ties_no">
+            <span id="ties">Ties: 0</span>
+        </div>
+        <br>
+        <div class="computer_scores">
+            <span id="computer_output">Computer's Score: 0</span>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="choices">
+        <img id="rock" src="images/rock.png" alt="rock" onclick="replaceImage()">
+        <img id="paper" src="images/paper.png" alt="paper" onclick="replaceImage()">
+        <img id="scissors" src="images/scissors.png" alt="scissors" onclick="replaceImage()">
+    </div>
+
+    <br>
+
+    <hr id="hr">
+    <div class="pc">
+        <img id="pcrock" src="images/rock.png" alt="pcrock">
+        <img id="pcpaper" src="images/paper.png" alt="pcpaper">
+        <img id="pcscissors" src="images/scissors.png" alt="pcscissors">
+    </div>
+    <hr id="hr2">
+    <div id="log">
+        <div class="history">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
