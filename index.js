@@ -104,16 +104,17 @@ function printRoundResult() {
 
     if(winnerString === "Tie")
     {
+        line.setAttribute('class', "tieText");
         line.textContent = "Round " + matchCount + ": " + winnerString;
     }
     else if(winnerString === "You")
     {
-        line.style.color = "#4caf50";
+        line.setAttribute('class', "winnerText");
         line.textContent = "Round " + matchCount + ": " + winnerString + " won the round";
     }
     else
     {
-        line.style.color = "#f44336";
+        line.setAttribute('class', "loserText");
         line.textContent = "Round " + matchCount + ": " + winnerString + " won the round";
     }
     msg.appendChild(line);
