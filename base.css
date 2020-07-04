@@ -109,3 +109,15 @@ header h1
 img{
     margin: 0 30px;
 }
+
+.winnerText {
+    color: #4caf50;
+}
+
+.loserText {
+    color: #f44336;
+}
+
+.tieText {
+    color: #515151;
+}
