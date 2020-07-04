@@ -108,11 +108,12 @@ function printRoundResult() {
     }
     else if(winnerString === "You")
     {
+        line.style.color = "#4caf50";
         line.textContent = "Round " + matchCount + ": " + winnerString + " won the round";
-        line.textContent.fontcolor("green");
     }
     else
     {
+        line.style.color = "#f44336";
         line.textContent = "Round " + matchCount + ": " + winnerString + " won the round";
     }
     msg.appendChild(line);
