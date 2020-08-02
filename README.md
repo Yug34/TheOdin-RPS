@@ -1,3 +1,5 @@
 # TheOdin-RPS
 
-[**Link**](http://stupidblogs.me/TheOdin-RPS/) to the project
+Simple Rock Paper Scissors web app I made for Javascript practice.
+
+[**Link to the project**](http://stupidblogs.me/TheOdin-RPS/)
