@@ -1,3 +1,3 @@
 # TheOdin-RPS
 
-Hosted at: http://stupidblogs.me/TheOdin-RPS/
+[**Link**](http://stupidblogs.me/TheOdin-RPS/) to the project
