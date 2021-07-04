@@ -4,7 +4,7 @@ Simple Rock Paper Scissors web app I made for Javascript practice.
 
 
 
-[**Link to the project**](http://stupidblogs.me/TheOdin-RPS/)
+[**Link to the project**](http://yug34.github.io/TheOdin-RPS/)
 
 
 
